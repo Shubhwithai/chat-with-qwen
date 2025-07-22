@@ -22,7 +22,7 @@ with st.sidebar:
     st.divider()
     st.markdown("**Model Details**")
     # Corrected model name typo
-    st.caption("Running: `qwen/qwen-2-72b-instruct`")
+    st.caption("Running: `qwen/qwen3-235b-a22b-07-25:free`")
     st.caption("via OpenRouter")
 
     st.divider()

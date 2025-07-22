@@ -72,7 +72,7 @@ for message in st.session_state.messages[1:]:  # Skip the system message
 if prompt := st.chat_input("What's on your mind?"):
     # Check for API key in the input field directly
     if not st.session_state.groq_api_key:
-        st.error("Please enter your GROQ API key in the sidebar")
+        st.error("Please enter your OpenRouter API key in the sidebar")
         st.stop()
         
     # Initialize the ChatOpenAI model with Groq

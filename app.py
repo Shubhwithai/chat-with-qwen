@@ -16,7 +16,7 @@ with st.sidebar:
     # Add model details section
     st.divider()
     st.markdown("**Model Details**")
-    st.caption("Running: `moonshotai/kimi-k2-instruct`")
+    st.caption("Running: `qwen/qwen3-235b-a22b-07-25:freet`")
     st.caption("Groq LPU Inference Engine")
     
     # Add New Chat button

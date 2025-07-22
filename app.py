@@ -4,7 +4,7 @@ import streamlit as st
 import os
 
 # Set up Streamlit page
-st.title("🚀 Chat With Kimi-K2 ")
+st.title("🚀 Chat With Qwen-3 ")
 st.write("Powered By [OpenRouter](https://openrouter.ai/models)")
 
 # Add sidebar for API key input and details

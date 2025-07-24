@@ -4,8 +4,8 @@ import streamlit as st
 import os
 
 # Set up Streamlit page
-st.set_page_config(page_title="Chat With Qwen-3", page_icon="🚀")
-st.title("🚀 Chat With Qwen-3")
+st.set_page_config(page_title="Chat With Qwen-3 Coder", page_icon="🚀")
+st.title("🚀 Chat With Qwen 3 Coder")
 st.write("Powered By [OpenRouter](https://openrouter.ai/models)")
 
 # Sidebar for API key input and details
@@ -22,7 +22,7 @@ with st.sidebar:
     st.divider()
     st.markdown("**Model Details**")
     # Corrected model name typo
-    st.caption("Running: `qwen/qwen3-235b-a22b-07-25:free`")
+    st.caption("Running: `qwen/qwen3-coder:free`")
     st.caption("via OpenRouter")
 
     st.divider()
@@ -67,7 +67,7 @@ if prompt := st.chat_input("What's on your mind?"):
     # Initialize the ChatOpenAI model
     try:
         chat = ChatOpenAI(
-            model="qwen/qwen3-235b-a22b-07-25:free",
+            model="qwen/qwen3-coder:free",
             openai_api_key=st.session_state.openrouter_api_key,
             openai_api_base="https://openrouter.ai/api/v1",
             streaming=True

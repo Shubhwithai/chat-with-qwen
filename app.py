@@ -4,8 +4,8 @@ import streamlit as st
 import os
 
 # Set up Streamlit page
-st.set_page_config(page_title="Chat With Qwen-3 Coder", page_icon="🚀")
-st.title("🚀 Chat With Qwen 3 Coder")
+st.set_page_config(page_title="Chat With Qwen3 Coder", page_icon="🚀")
+st.title("🚀 Chat With Qwen3 Coder")
 st.write("Powered By [OpenRouter](https://openrouter.ai/models)")
 
 # Sidebar for API key input and details

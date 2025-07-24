@@ -22,7 +22,7 @@ with st.sidebar:
     st.divider()
     st.markdown("**Model Details**")
     # Corrected model name typo
-    st.caption("Running: `qwen/qwen3-coder:free`")
+    st.caption("Running: `qwen/qwen3-coder`")
     st.caption("via OpenRouter")
 
     st.divider()
@@ -67,7 +67,7 @@ if prompt := st.chat_input("What's on your mind?"):
     # Initialize the ChatOpenAI model
     try:
         chat = ChatOpenAI(
-            model="qwen/qwen3-coder:free",
+            model="qwen/qwen3-coder",
             openai_api_key=st.session_state.openrouter_api_key,
             openai_api_base="https://openrouter.ai/api/v1",
             streaming=True
